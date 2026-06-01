@@ -1,13 +1,18 @@
 import { observer } from "mobx-react-lite";
-import { rootStore } from "../stores";
+import Background from "../containers/Background";
+import Buttons from "../containers/Buttons/Buttons";
+import SceneController from "../containers/SceneController";
+import Title from "#/containers/Title";
 
 const Layout = () => {
-  const {
-    scene: { width, height },
-  } = rootStore;
-  console.log(width, height);
-
-  return <pixiContainer></pixiContainer>;
+  return (
+    <pixiContainer>
+      <Background />
+      <Title />
+      <Buttons />
+      <SceneController />
+    </pixiContainer>
+  );
 };
 
 export default observer(Layout);
