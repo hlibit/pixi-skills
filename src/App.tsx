@@ -1,6 +1,6 @@
 import { Application } from "@pixi/react";
 import { useState } from "react";
-import Layout from "./layout/Layout";
+import Layout from "#/host";
 import { useScreenSize } from "./hooks/useScreenSize";
 import "./pixiSetup";
 
@@ -10,7 +10,8 @@ const App = () => {
 
   return (
     <div className="parent" ref={setContainer}>
-      {container && (
+      <Layout />
+      {/* {container && (
         <Application
           resizeTo={container}
           antialias
@@ -19,7 +20,7 @@ const App = () => {
         >
           <Layout />
         </Application>
-      )}
+      )} */}
     </div>
   );
 };
