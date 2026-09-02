@@ -1,6 +1,6 @@
 import { Application } from "@pixi/react";
 import { useState } from "react";
-import Layout from "#/host";
+import Layout from "./wrapper";
 import { useScreenSize } from "./hooks/useScreenSize";
 import "./pixiSetup";
 

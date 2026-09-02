@@ -1,7 +1,7 @@
 {
   "name": "pixi-skills",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
     "@pixi/react": "^8.0.5",
     "@uidotdev/usehooks": "^2.4.1",
     "autoprefixer": "^10.5.4",
+    "classnames": "^2.5.1",
     "mobx": "^6.15.4",
     "mobx-react-lite": "^4.1.1",
     "mobx-react-observer": "^2.0.0",

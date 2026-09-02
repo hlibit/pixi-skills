@@ -1,0 +1,14 @@
+.background{
+    position: relative;
+
+    &-img {
+        position: absolute;
+        top: 0;
+        // todo: check possibility of changing via var
+        left: var(--override-x, 0);
+
+        &-offset-x{
+            left: -80px;
+        }
+    }
+}
