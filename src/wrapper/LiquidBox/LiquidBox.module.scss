@@ -1,0 +1,9 @@
+.box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.072);
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+    padding: 0px 16px;
+}

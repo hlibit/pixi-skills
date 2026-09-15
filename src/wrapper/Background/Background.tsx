@@ -22,7 +22,7 @@ const Background = () => {
   return (
     <div className={styles["background"]}>
       <img
-        src="/public/background.png"
+        src="/background.png"
         alt="background"
         width={safeWidth}
         height={safeHeight}

@@ -1,1 +1,14 @@
-.layout{}
+.layout {
+    position: relative;
+
+    h1{
+        position: absolute;
+        top: 0;
+        margin-top: 3%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: sans-serif;
+        color: rgba(143, 36, 220, 0.699);
+        z-index: 100;
+    }
+}
